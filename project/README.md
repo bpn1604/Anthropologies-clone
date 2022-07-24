@@ -1,4 +1,17 @@
 <h1>Anthropologie.com</h1>
+<hr />
+<h4>Anthropologie is an American clothing retailer with approximately 200 stores across the U.S., UK , Germany ,Italy, France and Canada which offer an assortment of clothing, jewellery, home furniture, decoration, beauty, and gifts. </h4>
+
+
+![Screenshot (253)](https://user-images.githubusercontent.com/98827173/180634041-1df91935-b36b-43ad-af8f-a37e3401879b.png)
+
+![Screenshot (254)](https://user-images.githubusercontent.com/98827173/180634052-ccab5482-1475-40bf-9de6-60082953fa2d.png)
+
+![Screenshot (255)](https://user-images.githubusercontent.com/98827173/180634070-d259177c-b8a4-431a-ba49-797bc54526fe.png)
+
+![Screenshot (256)](https://user-images.githubusercontent.com/98827173/180634080-4431b556-15f4-4d02-9e47-2882267b4e6d.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
