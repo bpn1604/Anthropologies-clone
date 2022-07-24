@@ -317,19 +317,7 @@ const SingleProduct = ({ id, location }) => {
           </div>
         </div>
 
-        <div style={{ width: "6%" }}>
-          {sidedata.map((item) => {
-            return (
-              <img
-                key={item.id}
-                className="my-2"
-                style={{ width: "100%", cursor: "pointer" }}
-                src={item.img1}
-                alt=""
-              />
-            );
-          })}
-        </div>
+        
       </div>
     </div>
   );

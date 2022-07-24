@@ -4,7 +4,7 @@ import { BsBoxSeam } from "react-icons/bs";
 import PaymentBox from "./Payment";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { Checkbox, Input } from '@chakra-ui/react'
+import { Checkbox, Input } from "@chakra-ui/react";
 import { useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { RiGlobeLine } from "react-icons/ri";
@@ -165,36 +165,54 @@ const Address = () => {
         </div>
       </div>
 
-      <Flex flexDirection="column" padding={"30px" }>
+      <Flex flexDirection="column" padding={"30px"}>
         <Box fontFamily={"sans-serif"}>Ship or Pick Up / Payment / Review</Box>
         <Flex>
-        <Box border={"1px solid"} width={"600px"} background={"whitesmoke"} fontFamily={"sans-serif"}  marginTop={"20px"}>
-        <p style={{margin:"10px"}}>Already Have an Account?</p>
-        <br />
-        <Input marginLeft={"60%"} marginBottom={"-80%"} placeholder='SIGN IN'  width={"30%"}/>
-        <p style={{margin:"10px" , marginTop:"-15px"}}>Sign in to check out faster.</p>
-        
+          <Box
+            border={"1px solid"}
+            width={"600px"}
+            background={"whitesmoke"}
+            fontFamily={"sans-serif"}
+            marginTop={"20px"}
+          >
+            <p style={{ margin: "10px" }}>Already Have an Account?</p>
+            <br />
+            <Input
+              marginLeft={"60%"}
+              marginBottom={"-80%"}
+              placeholder="SIGN IN"
+              width={"30%"}
+            />
+            <p style={{ margin: "10px", marginTop: "-15px" }}>
+              Sign in to check out faster.
+            </p>
+          </Box>
+        </Flex>
+        <Box
+          marginTop={"10px"}
+          border={"1px solid"}
+          width={"600px"}
+          height={"130px"}
+        >
+          Check out as a guest
+          <br />
+          Email Address:
+          <br />
+          <Input width={"40%"} />
+          <br />
+          <Flex gap={"10px"}>
+            <Checkbox />
+            <label>
+              Please send me Anthropologie offers, promotions, and other
+              commercial messages. (You may unsubscribe at any time.)
+            </label>
+          </Flex>
         </Box>
-        
-        </Flex>
-        <Box marginTop={"10px"} border={"1px solid" }width={"600px"} height={"130px"}>
-        Check out as a guest
-        <br />
-        Email Address:
-        <br />
-        <Input width={"40%"} />
-        <br />
-        <Flex gap={"10px"}>
-        <Checkbox />
-        <label>Please send me Anthropologie offers, promotions, and other commercial messages. (You may unsubscribe at any time.)</label>
-        </Flex>
-      </Box>
       </Flex>
-      
+
       <div
         className={style.container}
-        style={{ backgroundColor: "rgb(247, 253, 253)" }}
-      >
+        style={{ backgroundColor: "rgb(247, 253, 253)" }}>
         <div
           className={style.main}
           style={{ backgroundColor: "rgb(245,245,220)" }}
@@ -203,10 +221,13 @@ const Address = () => {
             <div style={{ fontSize: "20px", marginRight: "10px" }}>
               <BsBoxSeam />
             </div>
-            <Flex gap={"50px"}>
-            <h3>Ship</h3>
-            <img  style={{width:"20px"}} src="data:image/png;base64,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" />
-            <h3>Pick Up</h3>
+            <Flex gap={"50px"} marginBottom={"10px"}>
+              <h3>Ship</h3>
+              <img
+                style={{ width: "20px" }}
+                src="data:image/png;base64,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"
+              />
+              <h3>Pick Up</h3>
             </Flex>
           </div>
           <hr className={style.new1} />

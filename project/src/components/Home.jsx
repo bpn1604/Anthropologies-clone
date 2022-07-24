@@ -20,7 +20,7 @@ const Home = () => {
       
         <div className="home-container">
           <img
-            style={{ width: "1170px" }}
+            style={{ width: "1230px" }}
             src="https://images.ctfassets.net/5de70he6op10/4tWYuCwv5L2JfLs81bSPiC/e72919ba5d1bf6428d6403c0739ff146/071522_40offSOS_HPG_SecondaryBanner_LS_limitedtime.jpg?w=2882&q=80&fm=webp"
           />
           <div className="upper">

@@ -9,7 +9,7 @@ import style from "./login.module.css";
 import { FaRegEye } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { loginSuccess, loginFailure } from "../redux/action";
-import { Flex } from "@chakra-ui/react";
+
 
 function Navbar() {
   const navigate = useNavigate();
@@ -70,7 +70,7 @@ function Navbar() {
     }
   };
   return (
-    <div style={{width:"100%"}}>
+    <>
       <div
         id="carouselExampleControls"
         className="carousel slide"
@@ -473,7 +473,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-    </div>
+      </>
   );
 }
 
