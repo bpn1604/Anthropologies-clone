@@ -28,11 +28,12 @@
 
 <ul>
   
-<li>Clone our respository https://github.com/Parth-Bisht/Anthropologie-clone.git</li>
+<li>Clone our respository </li>
 <li>Open our code in VS code</li>
 <li>On your terminal just write the command npm install</li>
 <li>Initialize the server by writing 'npm run server' on Terminal</li>
-<li>Than you can navigate to our website.</li>
+  <li>npm start </li>
+<li>Then you can navigate to our website.</li>
 </ul>
 
 This project was made with :
