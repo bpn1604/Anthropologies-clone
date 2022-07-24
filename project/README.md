@@ -6,7 +6,7 @@
 
 ![Screenshot (253)](https://user-images.githubusercontent.com/98827173/180634041-1df91935-b36b-43ad-af8f-a37e3401879b.png)
 
-<h3>cart Page </h3>
+<h3>Footer Page </h3>
 
 ![Screenshot (254)](https://user-images.githubusercontent.com/98827173/180634052-ccab5482-1475-40bf-9de6-60082953fa2d.png)
 
@@ -19,7 +19,21 @@
 ![Screenshot (256)](https://user-images.githubusercontent.com/98827173/180634080-4431b556-15f4-4d02-9e47-2882267b4e6d.png)
 
 
-# Getting Started with Create React App
+# Getting Started 
+
+<h2>Execution</h2>
+<h6>If you want to run our project in your local machine</h6>
+
+<p>Follow the given steps:</p>
+
+<ul>
+  
+<li>Clone our respository https://github.com/Parth-Bisht/Anthropologie-clone.git</li>
+<li>Open our code in VS code</li>
+<li>On your terminal just write the command npm install</li>
+<li>Initialize the server by writing 'npm run server' on Terminal</li>
+<li>Than you can navigate to our website.</li>
+</ul>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
