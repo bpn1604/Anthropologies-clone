@@ -35,7 +35,12 @@
 <li>Than you can navigate to our website.</li>
 </ul>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made with :
+<ul>
+  <li>React.js</li>
+  <li>Bootstrap</li>
+  <li>Chakra UI</li>
+</ul>
 
 ## Available Scripts
 
