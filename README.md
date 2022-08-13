@@ -42,6 +42,7 @@ This project was made with :
   <li>React.js</li>
   <li>Bootstrap</li>
   <li>Chakra UI</li>
+  <li>Redux</li>
 </ul>
 
 ## Available Scripts
